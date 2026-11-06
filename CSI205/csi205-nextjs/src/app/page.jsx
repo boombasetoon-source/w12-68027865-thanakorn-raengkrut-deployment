@@ -1,33 +1,5 @@
-import Link from 'next/link';
 import { profile } from '@/data/profile';
 import styles from './home.module.css';
-
-const PROJECTS = [
-  {
-    href: '/animation',
-    icon: 'bi-dribbble',
-    title: 'Animation',
-    text: 'ลูกบอลเด้งในสนาม (Vite → Next.js)',
-  },
-  {
-    href: '/calculator',
-    icon: 'bi-calculator',
-    title: 'Calculator',
-    text: 'เครื่องคิดเลข (HTML/CSS/JS → Next.js)',
-  },
-  {
-    href: '/todos',
-    icon: 'bi-list-check',
-    title: 'Todos',
-    text: 'จัดการงาน กรอง และแบ่งหน้า',
-  },
-  {
-    href: '/products',
-    icon: 'bi-bag',
-    title: 'Products & Carts',
-    text: 'เลือกสินค้าใส่ตะกร้า สรุปราคา',
-  },
-];
 
 export default function HomePage() {
   return (
@@ -62,19 +34,6 @@ export default function HomePage() {
               </li>
             ))}
           </ul>
-
-          <p className={styles.sectionTitle}>ผลงานในเว็บนี้</p>
-          <div className={styles.projects}>
-            {PROJECTS.map((project) => (
-              <Link key={project.href} href={project.href} className={styles.project}>
-                <i className={`bi ${project.icon}`} aria-hidden="true" />
-                <span>
-                  <strong>{project.title}</strong>
-                  <small>{project.text}</small>
-                </span>
-              </Link>
-            ))}
-          </div>
 
           <img src="/images/coder.svg" alt="" className={styles.illustration} />
         </div>
