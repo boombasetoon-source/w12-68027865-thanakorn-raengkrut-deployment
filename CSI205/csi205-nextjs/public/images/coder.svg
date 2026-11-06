@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <ellipse cx="150" cy="186" rx="130" ry="8" fill="#000" opacity=".07"/>
+  <rect x="20" y="176" width="260" height="6" rx="3" fill="#c9b79c"/>
+  <rect x="78" y="44" width="144" height="96" rx="8" fill="#2d3748"/>
+  <rect x="86" y="52" width="128" height="80" rx="4" fill="#eef5ff"/>
+  <g stroke-width="6" stroke-linecap="round">
+    <path d="M98 66h28" stroke="#e53935"/><path d="M132 66h40" stroke="#1e6ff0"/>
+    <path d="M108 80h50" stroke="#2eb84a"/><path d="M164 80h22" stroke="#f5b301"/>
+    <path d="M108 94h20" stroke="#2aa8d8"/><path d="M134 94h46" stroke="#5f6670"/>
+    <path d="M98 108h36" stroke="#1e6ff0"/><path d="M140 108h18" stroke="#e53935"/>
+    <path d="M98 120h56" stroke="#2eb84a"/>
+  </g>
+  <path d="M62 140h176l14 34H48z" fill="#4a5568"/>
+  <path d="M126 150h48l4 10h-56z" fill="#718096"/>
+  <rect x="28" y="140" width="24" height="34" rx="4" fill="#e53935"/>
+  <path d="M52 148h6a7 7 0 0 1 0 14h-6" fill="none" stroke="#e53935" stroke-width="4"/>
+  <path d="M34 132c-4-6 4-8 0-14M44 132c-4-6 4-8 0-14" fill="none" stroke="#a0aec0" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M250 174l-6-26h32l-6 26z" fill="#d97b4a"/>
+  <path d="M260 148c-14-10-16-28-6-36 2 12 6 22 6 36z" fill="#2eb84a"/>
+  <path d="M260 148c12-12 22-16 30-12-8 4-18 8-30 12z" fill="#3fca5c"/>
+  <path d="M260 148c-2-18 4-34 14-40 0 14-6 28-14 40z" fill="#279c3f"/>
+  <text x="250" y="40" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#1e6ff0">&lt;/&gt;</text>
+  <text x="20" y="54" font-family="Consolas, monospace" font-size="20" font-weight="700" fill="#f5b301">{ }</text>
+</svg>

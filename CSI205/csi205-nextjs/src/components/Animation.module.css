@@ -1,0 +1,75 @@
+.wrapper {
+  padding: 8px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+}
+
+.field {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 650 / 400;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #d9a46a;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 36px rgba(60, 30, 5, 0.18);
+}
+
+/* เงาอยู่ที่กรอบนอกซึ่งไม่หมุน ลูกบอลข้างในหมุนได้โดยเงาไม่หมุนตาม */
+.ballShadow {
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: 4px 8px 12px rgba(40, 20, 0, 0.35);
+}
+
+.ball {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.plain {
+  background: radial-gradient(circle at 35% 30%, #ffffff 0%, #9fd0ff 30%, #2f7de1 100%);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.runButton {
+  min-width: 90px;
+  font-weight: 600;
+}
+
+.ballButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.ballButtons :global(.btn) {
+  font-size: 0.78rem;
+}
+
+.hint {
+  margin: 8px 0 0;
+  color: #6c757d;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.hint kbd {
+  padding: 1px 5px;
+  font-size: 0.72rem;
+}

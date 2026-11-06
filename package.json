@@ -1,0 +1,11 @@
+{
+  "name": "csi205-workspace",
+  "private": true,
+  "description": "ทางลัด: รันคำสั่งของโปรเจกต์ CSI205/csi205-nextjs ได้จากโฟลเดอร์นี้เลย",
+  "scripts": {
+    "dev": "npm --prefix CSI205/csi205-nextjs run dev --",
+    "build": "npm --prefix CSI205/csi205-nextjs run build --",
+    "start": "npm --prefix CSI205/csi205-nextjs run start --",
+    "setup": "npm --prefix CSI205/csi205-nextjs install"
+  }
+}

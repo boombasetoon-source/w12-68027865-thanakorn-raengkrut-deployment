@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="s" cx=".38" cy=".35" r=".75">
+      <stop offset=".55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".35"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="50" cy="50" r="48"/></clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="#fafafa"/>
+  <g clip-path="url(#c)">
+    <g fill="#1b1b1b" stroke="#1b1b1b" stroke-width="1.5" stroke-linejoin="round"><polygon points="50,35 64.3,45.4 58.8,62.1 41.2,62.1 35.7,45.4"/><polygon points="50,21 36.7,11.3 41.8,-4.3 58.2,-4.3 63.3,11.3"/><polygon points="77.6,41 82.7,25.4 99.1,25.4 104.2,41 90.9,50.7"/><polygon points="67,73.5 83.5,73.5 88.6,89.1 75.3,98.8 62,89.1"/><polygon points="33,73.5 38,89.1 24.7,98.8 11.4,89.1 16.5,73.5"/><polygon points="22.4,41 9.1,50.7 -4.2,41 0.9,25.4 17.3,25.4"/></g>
+    <g fill="none" stroke="#3a3a3a" stroke-width="1.4"><path d="M50 35L50 21"/><path d="M63.3 11.3L73.5 17.6L82.7 25.4M73.5 17.6L80.6 7.9"/><path d="M64.3 45.4L77.6 41"/><path d="M90.9 50.7L88 62.4L83.5 73.5M88 62.4L99.5 66.1"/><path d="M58.8 62.1L67 73.5"/><path d="M62 89.1L50 90L38 89.1M50 90L50 102"/><path d="M41.2 62.1L33 73.5"/><path d="M16.5 73.5L12 62.4L9.1 50.7M12 62.4L0.5 66.1"/><path d="M35.7 45.4L22.4 41"/><path d="M17.3 25.4L26.5 17.6L36.7 11.3M26.5 17.6L19.4 7.9"/></g>
+  </g>
+  <circle cx="50" cy="50" r="48" fill="url(#s)"/>
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#222" stroke-width="2"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="s" cx=".38" cy=".35" r=".75">
+      <stop offset=".5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".3"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="50" cy="50" r="48"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <path fill="#1f5fbf" d="M50 50Q22.1 30.5 50 -2A52 52 0 0 1 95 76Q80.8 35.6 50 50Z"/><path fill="#f6cd1d" d="M50 50Q80.8 35.6 95 76A52 52 0 0 1 5 76Q47 83.9 50 50Z"/><path fill="#ffffff" d="M50 50Q47 83.9 5 76A52 52 0 0 1 50 -2Q22.1 30.5 50 50Z"/>
+    <g fill="none" stroke="#1d2a44" stroke-width="1.6" stroke-linecap="round"><path d="M50 50Q22.1 30.5 50 -2"/><path d="M56.8 34.8Q43.4 12.6 83.4 10.2"/><path d="M67.3 34.4Q69 17.1 101.2 41"/><path d="M50 50Q80.8 35.6 95 76"/><path d="M59.8 63.5Q85.7 63 67.8 98.9"/><path d="M54.9 72.8Q69 82.9 32.2 98.9"/><path d="M50 50Q47 83.9 5 76"/><path d="M33.4 51.7Q20.9 74.4 -1.2 41"/><path d="M27.8 42.8Q12 50 16.6 10.2"/></g>
+  </g>
+  <circle cx="50" cy="50" r="48" fill="url(#s)"/>
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#1d2a44" stroke-width="2"/>
+</svg>
