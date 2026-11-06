@@ -11,7 +11,6 @@ export const profile = {
   school: 'School of Information Technology (SIT)',
   university: 'Sripatum University (SPU)',
 
-  greeting: 'สวัสดี! ยินดีที่ได้รู้จัก',
   intro:
     'เป็นนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์ ที่ชอบสร้างเว็บไซต์ให้สวยงามและใช้งานง่าย กำลังเรียนวิชา CSI205 Front-End Software Development เพื่อพัฒนาทักษะการเขียนเว็บด้วย React และ Next.js',
 

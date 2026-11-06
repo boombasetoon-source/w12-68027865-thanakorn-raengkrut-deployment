@@ -24,7 +24,6 @@ export default function HomePage() {
         </div>
 
         <div className="col-sm-7">
-          <h2 className={styles.greeting}>{profile.greeting} 👋</h2>
           <p className={styles.intro}>{profile.intro}</p>
 
           <ul className={styles.about}>
